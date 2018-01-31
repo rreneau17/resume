@@ -1,0 +1,97 @@
+/* CSS */
+html, body{
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+    background-color:eee;
+    font-family: 'Open Sans', sans-serif;  
+  }
+  
+  body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,*:before, *:after{
+    box-sizing: inherit;
+  }
+
+  .main-container {
+      display: flex;
+      flex-direction: row;
+      height: 2200px;
+      width: 1700px;
+  }
+
+  .left-container {
+      height: 100%;
+      width: 40%;
+  }
+
+  .right-container {
+      height: 100%;
+      width: 60%;
+      background-color: #f0f8fe;
+  }
+
+  .profile-pic {
+      border-radius: 50%;
+      background-color: #bcb6ab;
+      width: 470px;
+      height: 470px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 85px;
+      margin-bottom: 55px;
+  }
+
+  .name-title {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 125px;
+  }
+
+ .name-title h1 {
+      font-size: 4em;
+      font-weight: 1800;
+      text-shadow: 0px 1px, 1px 0px, 1px 1px;
+      color: #666666;
+      text-align: center;
+      padding-bottom: 15px;
+      font-family: 'Montserrat', sans-serif;     
+  }
+
+  .name-title p {
+      font-size: 1.3em;
+      text-align: center;
+      letter-spacing: .25em;
+      font-weight: 300;
+  }
+
+  .left-items {
+      margin-left: 50px;
+      margin-bottom: 40px;
+  }
+
+  .left-items h2 {
+      font-size: 1.5em;
+      font-weight: 900;
+      color: #666666;
+      letter-spacing: .1em; 
+      margin-bottom: 28px;
+      text-shadow: 0px .2px, .2px 0px, .2px .2px;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .left-items p {
+      margin-bottom: 22px;
+      font-weight: 100;
+      font-size: 1.3em;
+      letter-spacing: .05em;
+  }
+
+  .very-bold {
+    text-shadow: 0px .8px, .8px 0px, .8px .8px;
+  }
+
