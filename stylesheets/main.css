@@ -95,3 +95,19 @@ html, body{
     text-shadow: 0px .8px, .8px 0px, .8px .8px;
   }
 
+  td {
+    padding-right: 9em;
+    padding-bottom: .5em;
+    font-weight: 100;
+    font-size: 1.3em;
+    letter-spacing: .05em;
+  }
+
+  /* .hobby-styling {
+    font-weight: 100;
+    font-size: .8em;
+    letter-spacing: .05em;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+  } */
+
